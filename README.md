@@ -15,7 +15,7 @@ This approach offers a lot of flexibility in deciding how many groups can be for
 
 ### K-means Clustering
 
-K-means clustering is an unsupervised machine learning technique separating observations into cluster/groups  based on the relative distance or “closeness” of their characteristics. In this case, customers that have relatively close similarities in their characteristics would be put into the same cluster and those which are mutually further way would be in a different cluster.
+K-means clustering is an unsupervised machine learning technique separating observations into clusters/groups  based on the relative distance or “closeness” of their characteristics. In this case, customers that have relatively close similarities in their characteristics would be put into the same cluster and those which are mutually further way would be in a different cluster.
 
 The number of clusters can be chosen arbitrarily; however, a technique which takes the point where inflection occurs as the Within-Cluster-Sum of Squared Errors (WSS) diminishes can be selected as the most natural point of deciding how many clusters should exist. This is commonly known as "the elbow method" Why is that point used as the optimal amount of clusters, and in this case customer segements? 
 
