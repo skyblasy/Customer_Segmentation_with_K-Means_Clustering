@@ -3,7 +3,7 @@ Customer segmentation analysis segmenting on frequency, recency, and monetary am
 
 # Who are the top performing customers and how can we determine that? 
 
-A fundamental question in marketing is knowing who the target consumer segment is to maximize return on marketing spent in targetting that group. 
+A fundamental question in marketing is knowing who the target consumer segment is to maximize return on marketing spent. 
 
 This project takes customer data including purchasing frequency, recency, and monetary amount as relevant dimensions and factors segmentation and separates the accounts with two different strategies.
 
