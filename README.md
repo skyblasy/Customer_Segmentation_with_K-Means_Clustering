@@ -1,6 +1,8 @@
 # Customer_Segmentation_with_K-Means_Clustering
 Customer segmentation analysis segmenting on frequency, recency, and monetary amount. This analysis is done with binning using quantiles and also unsupervised machine learning
 
+Project was inspired and based off the work of [**The AI University**](https://youtu.be/fdUofaT8gUw). Please check them out and show support for a great resource.
+
 # Who are the top performing customers and how can we determine that? 
 
 A fundamental question in marketing is knowing who the target consumer segment is to maximize return on marketing spent. This project is an example of how to answer that question and solve that problem.
