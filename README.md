@@ -11,9 +11,7 @@
 
 ## Who are the top performing customers and how can we determine that? 
 
-A fundamental question in marketing is knowing who the target consumer segment is to maximize return on marketing spent. This project is an example of how to answer that question and solve that problem.
-
-This project takes customer transaction data and uses feature engineernig to transform them to  purchasing frequency, recency, and monetary amount as relevant dimensions and factors segmentation and separates the accounts with two different strategies. 
+Market segmentation is a fundamental business strategy that allows companies to cater more effectively to the diverse needs and preferences of their customers. By dividing a broad market into subsets of consumers with similar characteristics or behaviors, businesses can design and deliver more personalized products, marketing messages, and service offerings. This tailored approach not only drives customer satisfaction and loyalty but also optimizes resource allocation, enhances competitive positioning, and increases the likelihood of success in new product launches. In an increasingly crowded marketplace, market segmentation is crucial for businesses seeking to maintain relevance and maximize profitability.
 
 ## Binning on a given number of quantiles
 
