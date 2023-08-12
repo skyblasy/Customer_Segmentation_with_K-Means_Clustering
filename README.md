@@ -2,6 +2,7 @@
 ## Tehnologies Used
 - Python
 - Jupyter notebook
+- Scikit-learn
 - K-means clustering
 - Pandas
 - Numpy
