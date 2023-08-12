@@ -1,4 +1,4 @@
-# Customer Segmentation with KMeans Clustering
+# Customer Segmentation with K-Means Clustering
 
 #### Who are the top performing customers and how can we determine that? 
 
@@ -23,3 +23,5 @@ The number of clusters can be chosen arbitrarily; however, a technique which tak
 Because at that cluster number, the diminishing marginal returns for adding more clusters to minimizing WSS begins to set in; i.e. you're gaining little information and nuance for added additions to cluster numbers relative to minimizing your errors. In this case it’s determined we should have 3 clusters/customer segments.
 
 ![me](https://github.com/skyblasy/Customer_Segmentation_with_K-Means_Clustering/blob/main/Customer_Clustered.png)
+
+
