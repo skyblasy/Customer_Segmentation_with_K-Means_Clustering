@@ -43,6 +43,14 @@ When applied to customer and marketing segmentation, the benefits of using K-mea
 
 7) Resource optimization: Understanding distinct customer segments allows businesses to allocate resources more efficiently, targeting high-value segments or addressing the unique needs of each segment.
 
+#### Choosing the correct number of clusters and consumer segements
+
+Understanding Within Sum of Squares (WSS): WSS is a measure of the total squared distance between each point in a cluster and the centroid of that cluster. Lower WSS values indicate that data points are closer to the centroids of their respective clusters, signifying a better clustering.
+
+As you increase the number of clusters, the WSS typically decreases because there are more centroids, so points are, on average, closer to their respective centroid. However, after a certain point, adding more clusters leads to diminishing returns in the reduction of WSS. The "elbow" of the curve represents an inflection point where the decrease in WSS begins to slow down. Choosing the number of clusters at this "elbow" balances the trade-off between having too many or too few clusters.
+
+In ths workflow, I used the Yellowbrick API to automatically find and allocate the correct number of clusters based on the WWS, in this case it was three. 
+
 In summary, K-means clustering provides a powerful, scalable, and cost-effective method to discover and understand customer segments, leading to more insightful and effective marketing strategies.
 
 ![me](https://github.com/skyblasy/Customer_Segmentation_with_K-Means_Clustering/blob/main/Customer_Clustered.png)
