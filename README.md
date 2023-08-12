@@ -1,12 +1,20 @@
 # Customer Segmentation with K-Means Clustering
+## Tehnologies Used
+- Python
+- Jupyter notebook
+- K-means clustering
+- Pandas
+- Numpy
+- Seaborn
+- Matplotlib
 
-#### Who are the top performing customers and how can we determine that? 
+## Who are the top performing customers and how can we determine that? 
 
 A fundamental question in marketing is knowing who the target consumer segment is to maximize return on marketing spent. This project is an example of how to answer that question and solve that problem.
 
 This project takes customer transaction data and uses feature engineernig to transform them to  purchasing frequency, recency, and monetary amount as relevant dimensions and factors segmentation and separates the accounts with two different strategies. 
 
-### Binning on a given number of quantiles
+## Binning on a given number of quantiles
 
 This first method is more arbitrary but allows greater discretion on part of management  in defining segments. This is achieved by ranking each customers’ purchase recency, frequency, and monetary amount for a given quantile and then summing those values together to get a value associated with a certain rank of customer; Platinum, Gold, Silver, Bronze. 
 
@@ -14,7 +22,7 @@ This first method is more arbitrary but allows greater discretion on part of man
 
 This approach offers a lot of flexibility in deciding how many groups can be formed. But, for that same reason, that is also a potential pitfall; the categories are arbitrarily chosen, so can it really be certain that the highest segment really represents all the best customers? Or, is the number of segments really the appropriate amount? Could there be more or potentially fewer? Fortunately there is a more organic way to differentiate customers.
 
-### K-means Clustering
+## K-means Clustering
 
 K-means clustering is an unsupervised machine learning technique separating observations into clusters/groups  based on the relative distance or “closeness” of their characteristics. In this case, customers that have relatively close similarities in their characteristics would be put into the same cluster and those which are mutually further way would be in a different cluster.
 
