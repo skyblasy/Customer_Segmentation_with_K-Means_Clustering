@@ -27,32 +27,16 @@ This approach offers a lot of flexibility in deciding how many groups can be for
 
 K-means clustering is a popular unsupervised machine learning algorithm used for partitioning a dataset into a set of distinct, non-overlapping subgroups or 'clusters'. Each cluster is defined by the mean value of the data points within it. The primary goal of the K-means algorithm is to minimize the variance within each cluster and maximize the variance between the clusters.
 
-When applied to customer and marketing segmentation, the benefits of using K-means clustering include:
-
-1) Data-driven segmentation: K-means provides an objective approach to segmentation, based on actual data patterns rather than preconceived notions or biases. This can unveil hidden patterns in customer behavior and preferences.
-
-2) Scalability: K-means can handle large datasets efficiently, making it suitable for businesses with vast amounts of customer data.
-
-3) Customizable number of segments: By selecting the number of clusters 'K', businesses can tailor the granularity of their segmentation based on their specific needs.
-
-4) Cost-effective: Instead of relying on expensive market research or external consultants, K-means offers an in-house, computational method to quickly identify and adapt to market segments.
-
-5) Dynamic adaptation: As customer behavior changes or new data becomes available, K-means can be re-run to identify evolving segments and trends.
-
-6) Improved targeting and personalization: With clearer segmentation, businesses can craft more targeted and personalized marketing campaigns, leading to higher engagement and conversion rates.
-
-7) Resource optimization: Understanding distinct customer segments allows businesses to allocate resources more efficiently, targeting high-value segments or addressing the unique needs of each segment.
-
-#### Choosing the correct number of clusters and consumer segements
-
-Understanding Within Sum of Squares (WSS): WSS is a measure of the total squared distance between each point in a cluster and the centroid of that cluster. Lower WSS values indicate that data points are closer to the centroids of their respective clusters, signifying a better clustering.
+#### Understanding Within Sum of Squares (WSS):
+WSS is a measure of the total squared distance between each point in a cluster and the centroid of that cluster. Lower WSS values indicate that data points are closer to the centroids of their respective clusters, signifying a better clustering.
 
 As you increase the number of clusters, the WSS typically decreases because there are more centroids, so points are, on average, closer to their respective centroid. However, after a certain point, adding more clusters leads to diminishing returns in the reduction of WSS. The "elbow" of the curve represents an inflection point where the decrease in WSS begins to slow down. Choosing the number of clusters at this "elbow" balances the trade-off between having too many or too few clusters.
 
-In ths workflow, I used the Yellowbrick API to automatically find and allocate the correct number of clusters based on the WWS, in this case it was three. 
+The elbow method is visually intuitive. A plot of the number of clusters against the corresponding WSS allows decision-makers to quickly identify the optimal number of clusters without getting lost in complex computations or metrics, and often produces a number of clusters that is reasonable and interpretable in a business context. This ensures that the derived customer segments are actionable and can be effectively communicated to marketing teams.
 
-In summary, K-means clustering provides a powerful, scalable, and cost-effective method to discover and understand customer segments, leading to more insightful and effective marketing strategies.
+In ths workflow, I used the Yellowbrick API to automatically find and allocate the correct number of clusters based on the WWS, in this case it was three. 
 
 ![me](https://github.com/skyblasy/Customer_Segmentation_with_K-Means_Clustering/blob/main/Customer_Clustered.png)
 
+In summary, K-means clustering provides a powerful, scalable, and cost-effective method to discover and understand customer segments, leading to more insightful and effective marketing strategies.
 
